@@ -1,0 +1,20 @@
+{
+  "name": "prism-metrics",
+  "version": "1.0.0",
+  "description": "PrismMetrics - Smart Sales Analytics Dashboard & High-Conversion SaaS Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "sales-analytics",
+    "saas-landing-page",
+    "predictive-ai",
+    "data-visualization",
+    "sales-dashboard"
+  ],
+  "author": "PrismMetrics",
+  "license": "MIT"
+}

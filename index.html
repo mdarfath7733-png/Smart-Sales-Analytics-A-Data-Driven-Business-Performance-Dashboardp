@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrismMetrics | Smart Sales Analytics & Predictive Revenue Platform</title>
+  <meta name="description" content="Transform raw sales data into predictable revenue with AI-powered forecasting, churn intelligence, and real-time pipeline telemetry.">
+  <meta name="theme-color" content="#060913">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Cyber Lighting & Space Atmosphere -->
+  <div class="cyber-background">
+    <div class="cyber-grid"></div>
+    <div class="glow-orb-1"></div>
+    <div class="glow-orb-2"></div>
+    <div class="glow-orb-3"></div>
+  </div>
+
+  <!-- Site Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo">
+        <div class="brand-prism-icon">
+          <svg class="prism-svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+            <polygon points="17,3 31,28 3,28" stroke="url(#prismGrad)" stroke-width="2.5" fill="rgba(0, 240, 255, 0.08)"/>
+            <polygon points="17,8 26,25 8,25" stroke="url(#innerGrad)" stroke-width="1.5" fill="rgba(168, 85, 247, 0.12)"/>
+            <circle cx="17" cy="18" r="3" fill="#00f0ff" filter="drop-shadow(0 0 6px #00f0ff)"/>
+            <defs>
+              <linearGradient id="prismGrad" x1="3" y1="3" x2="31" y2="28" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#00f0ff"/>
+                <stop offset="0.5" stop-color="#a855f7"/>
+                <stop offset="1" stop-color="#00f5a0"/>
+              </linearGradient>
+              <linearGradient id="innerGrad" x1="8" y1="8" x2="26" y2="25" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#a855f7"/>
+                <stop offset="1" stop-color="#00f0ff"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="prism-title">Prism</span><span class="metrics-title">Metrics</span>
+        </div>
+      </a>
+
+      <!-- Center Nav Links -->
+      <nav>
+        <ul class="nav-center-menu" id="navCenterMenu">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#dashboard-preview" class="nav-link">Analytics & AI</a></li>
+          <li><a href="#pipeline" class="nav-link">Pipeline</a></li>
+          <li><a href="#integrations" class="nav-link">Integrations</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right CTAs & Live Badge -->
+      <div class="nav-actions">
+        <div class="live-badge-status">
+          <span class="pulse-dot"></span>
+          <span>AI Engine Online</span>
+        </div>
+        <button class="btn btn-secondary-glass btn-sm open-demo-btn">Live Demo</button>
+        <button class="btn btn-primary-neon btn-sm open-trial-btn">Start Free Trial</button>
+        <!-- Mobile Nav Toggle -->
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <!-- Top Announcement Pill -->
+      <div class="hero-pill-badge" onclick="document.getElementById('dashboard-preview').scrollIntoView({behavior:'smooth'})">
+        <span>⚡ Introducing Prism AI 3.0 • Automated Revenue Leakage Detection</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </div>
+
+      <!-- Main Compelling Headline -->
+      <h1 class="hero-headline">
+        Transform Raw Sales Data Into <br>
+        <span class="text-gradient-neon">Predictable Revenue</span>
+      </h1>
+
+      <!-- AI-Driven Subheadline -->
+      <p class="hero-subheadline">
+        Unify CRM telemetry, automate deal stage probabilities, and eliminate end-of-quarter forecast blindspots with 99.4% machine learning accuracy.
+      </p>
+
+      <!-- Two Hero CTA Buttons -->
+      <div class="hero-cta-group">
+        <button class="btn btn-primary-neon btn-lg open-trial-btn">
+          <span>Get Started Free</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+        <button class="btn btn-secondary-glass btn-lg open-demo-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          <span>Watch Live Demo</span>
+        </button>
+      </div>
+
+      <!-- Micro Trust Signals -->
+      <div class="hero-trust-subtext">
+        <span><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> 14-day free trial</span>
+        <span><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> No credit card required</span>
+        <span><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> 2-minute CRM sync</span>
+        <span><svg class="check-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg> SOC-2 Type II certified</span>
+      </div>
+
+      <!-- Eye-Catching Mockup Preview Container -->
+      <div class="hero-mockup-container">
+        <!-- Floating Insight Pill Left -->
+        <div class="floating-hero-pill pill-left">
+          <div class="pulse-dot"></div>
+          <div>
+            <div style="font-size:0.75rem;color:var(--text-muted);">AI Churn Shield Alert</div>
+            <div style="color:var(--neon-mint);">3 Accounts Rescued (+$240K saved)</div>
+          </div>
+        </div>
+
+        <!-- Floating Insight Pill Right -->
+        <div class="floating-hero-pill pill-right">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00f0ff" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+          <div>
+            <div style="font-size:0.75rem;color:var(--text-muted);">Enterprise Pipeline Velocity</div>
+            <div style="color:var(--neon-cyan);">+34.8% QoQ Acceleration</div>
+          </div>
+        </div>
+
+        <!-- Mockup Window -->
+        <div class="hero-mockup-inner">
+          <div class="window-topbar">
+            <div class="window-dots">
+              <span class="dot-red"></span>
+              <span class="dot-yellow"></span>
+              <span class="dot-green"></span>
+            </div>
+            <div class="window-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              <span>PrismMetrics Revenue Command Suite v3.2</span>
+            </div>
+            <div class="window-actions">
+              <span style="font-size:0.75rem; color:var(--neon-mint); display:flex; align-items:center; gap:4px;">
+                <span class="pulse-dot"></span> Live Sync
+              </span>
+            </div>
+          </div>
+
+          <!-- Hero Mini Showcase Strip -->
+          <div style="padding: 1.25rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; background: var(--bg-surface-2);">
+            <div style="background:var(--bg-surface-1); padding:0.85rem 1rem; border-radius:10px; border:1px solid var(--border-subtle); display:flex; align-items:center; justify-content:space-between;">
+              <div>
+                <span style="font-size:0.75rem; color:var(--text-muted);">Quarterly Revenue</span>
+                <div style="font-size:1.35rem; font-weight:800; color:#fff;">$1,428,950</div>
+              </div>
+              <span class="metric-delta positive">+28.4%</span>
+            </div>
+
+            <div style="background:var(--bg-surface-1); padding:0.85rem 1rem; border-radius:10px; border:1px solid var(--border-subtle); display:flex; align-items:center; justify-content:space-between;">
+              <div>
+                <span style="font-size:0.75rem; color:var(--text-muted);">Forecast Accuracy</span>
+                <div style="font-size:1.35rem; font-weight:800; color:var(--neon-cyan);">99.4%</div>
+              </div>
+              <span class="metric-delta positive">+1.8%</span>
+            </div>
+
+            <div style="background:var(--bg-surface-1); padding:0.85rem 1rem; border-radius:10px; border:1px solid var(--border-subtle); display:flex; align-items:center; justify-content:space-between;">
+              <div>
+                <span style="font-size:0.75rem; color:var(--text-muted);">Predictive Q3 Run</span>
+                <div style="font-size:1.35rem; font-weight:800; color:var(--neon-mint);">$1,850,000</div>
+              </div>
+              <span class="badge-tag mint" style="margin:0; font-size:0.65rem;">+24% Target</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof & Enterprise Trust Logos -->
+  <section class="social-proof-section">
+    <div class="container">
+      <div class="social-proof-label">Trusted by high-growth revenue leaders at leading technology enterprises</div>
+      <div class="logos-grid">
+        <div class="logo-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          <span>STRIPE</span>
+        </div>
+        <div class="logo-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <span>DATADOG</span>
+        </div>
+        <div class="logo-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          <span>SNOWFLAKE</span>
+        </div>
+        <div class="logo-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          <span>VERCEL</span>
+        </div>
+        <div class="logo-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          <span>SCALE AI</span>
+        </div>
+        <div class="logo-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          <span>FIGMA</span>
+        </div>
+      </div>
+
+      <!-- Trust Metrics Stats Row -->
+      <div class="stats-proof-row">
+        <div class="stat-item">
+          <div class="stat-number cyan">$4.8B+</div>
+          <div class="stat-label">Pipeline Telemetry Analyzed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number mint">99.4%</div>
+          <div class="stat-label">Predictive Forecast Accuracy</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number violet">38%</div>
+          <div class="stat-label">Faster Enterprise Sales Cycles</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number cyan">450+</div>
+          <div class="stat-label">Forward-Thinking Revenue Orgs</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Dashboard Preview Section (Main Showcase Grid) -->
+  <section class="dashboard-showcase-section" id="dashboard-preview">
+    <div class="container-wide">
+      <div class="section-head">
+        <div class="badge-tag cyan">Interactive Analytics Engine</div>
+        <h2 class="section-title">Real-Time Revenue & Predictive Command Center</h2>
+        <p class="section-description">
+          Toggle real-time timeframes, simulate market scenarios, and explore granular regional breakouts powered by our continuous AI forecasting models.
+        </p>
+      </div>
+
+      <!-- Main Interactive App Card Shell -->
+      <div class="app-shell-card">
+        <!-- Control Toolbar -->
+        <div class="dashboard-toolbar">
+          <div class="toolbar-left">
+            <span style="font-size:0.85rem; font-weight:700; color:var(--text-muted);">Range:</span>
+            <div class="pill-tab-group">
+              <button class="tab-btn period-tab-btn" data-period="7d">7D</button>
+              <button class="tab-btn period-tab-btn" data-period="30d">30D</button>
+              <button class="tab-btn period-tab-btn" data-period="qtd">QTD</button>
+              <button class="tab-btn period-tab-btn active" data-period="ytd">YTD (2026)</button>
+            </div>
+          </div>
+
+          <div class="toolbar-right">
+            <!-- Real-time Data Stream Toggle -->
+            <button class="live-stream-toggle" id="streamToggleBtn" title="Toggle Simulated Real-time Telemetry Stream">
+              <span class="pulse-dot"></span>
+              <span>Telemetry: Live</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 4 Core Real-time Metric Cards -->
+        <div class="metrics-grid-4">
+          <!-- Card 1: Total Revenue -->
+          <div class="metric-card">
+            <div class="metric-header">
+              <span class="metric-label">Total Real-Time Revenue</span>
+              <div class="metric-icon-wrap icon-cyan">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+              </div>
+            </div>
+            <div class="metric-value-row">
+              <div class="metric-value" id="metricRevenueVal">$1,428,950</div>
+              <span class="metric-delta positive">+28.4%</span>
+            </div>
+            <div class="metric-subtext">
+              <span>Target: $1.80M (Q3)</span>
+              <span style="color:var(--neon-cyan)">79.4% to quota</span>
+            </div>
+            <div class="progress-mini-bar">
+              <div class="progress-fill-cyan"></div>
+            </div>
+          </div>
+
+          <!-- Card 2: Annual Run Rate -->
+          <div class="metric-card">
+            <div class="metric-header">
+              <span class="metric-label">Annual Run Rate (ARR)</span>
+              <div class="metric-icon-wrap icon-mint">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              </div>
+            </div>
+            <div class="metric-value-row">
+              <div class="metric-value">$5,715,800</div>
+              <span class="metric-delta positive">+34.2%</span>
+            </div>
+            <div class="metric-subtext">
+              <span>Net Retention Rate</span>
+              <span style="color:var(--neon-mint)">126% NRR</span>
+            </div>
+            <div class="progress-mini-bar">
+              <div class="progress-fill-mint"></div>
+            </div>
+          </div>
+
+          <!-- Card 3: Pipeline Win Rate -->
+          <div class="metric-card">
+            <div class="metric-header">
+              <span class="metric-label">Pipeline Win Rate</span>
+              <div class="metric-icon-wrap icon-violet">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polygon points="12 8 8 12 12 16 16 12 12 8"></polygon></svg>
+              </div>
+            </div>
+            <div class="metric-value-row">
+              <div class="metric-value">64.8%</div>
+              <span class="metric-delta positive">+8.1%</span>
+            </div>
+            <div class="metric-subtext">
+              <span>Avg Sales Cycle</span>
+              <span style="color:var(--neon-violet)">22.4 Days (4d faster)</span>
+            </div>
+            <div class="progress-mini-bar">
+              <div class="progress-fill-cyan" style="width: 64.8%;"></div>
+            </div>
+          </div>
+
+          <!-- Card 4: Customer Health Score -->
+          <div class="metric-card">
+            <div class="metric-header">
+              <span class="metric-label">Customer Health Index</span>
+              <div class="metric-icon-wrap icon-amber">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              </div>
+            </div>
+            <div class="metric-value-row">
+              <div class="metric-value">92.4 <span style="font-size:1.1rem; color:var(--text-dim);">/100</span></div>
+              <span class="metric-delta positive">Healthy</span>
+            </div>
+            <div class="metric-subtext">
+              <span>Churn Risk Under Surveillance</span>
+              <span style="color:var(--neon-mint)">2.1% (Low)</span>
+            </div>
+            <div class="progress-mini-bar">
+              <div class="progress-fill-mint" style="width: 92%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Forecast Copilot & Scenario Simulator (Prominently featured as requested) -->
+        <div class="ai-forecast-copilot-card">
+          <div class="ai-forecast-left">
+            <div class="ai-avatar-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2a10 10 0 1 0 10 10H12V2z"></path><path d="M12 12L2.5 7.5"></path><path d="M12 12v10"></path></svg>
+            </div>
+            <div class="ai-forecast-content">
+              <h4>
+                <span>AI Predictive Sales Forecast</span>
+                <span class="ai-prediction-chip" id="aiPredictionChip">Prediction: 24% Q3 growth expected</span>
+              </h4>
+              <p class="ai-narrative-text" id="aiNarrativeText">
+                Based on 14,200 CRM signals across Salesforce and HubSpot, EMEA enterprise renewals are outperforming historical averages by 18%. Projected quarter-end ARR: $1.85M (94.8% confidence).
+              </p>
+            </div>
+          </div>
+
+          <div class="ai-forecast-actions">
+            <span style="font-size:0.75rem; color:var(--text-muted); font-weight:700;">Simulate Scenarios:</span>
+            <button class="scenario-btn active" data-scenario="baseline">Base (+24%)</button>
+            <button class="scenario-btn" data-scenario="bull">🚀 Bull (+32%)</button>
+            <button class="scenario-btn" data-scenario="bear">⚠️ Stress Test (-11%)</button>
+          </div>
+        </div>
+
+        <!-- Interactive Charts Dual Layout Grid -->
+        <div class="charts-dual-grid">
+          <!-- Left: Monthly Trend Line Graph with AI Forecast Curve -->
+          <div class="chart-panel-card">
+            <div class="chart-header-row">
+              <div class="chart-title-area">
+                <h3>Monthly Revenue Trajectory & AI Predictive Forecast</h3>
+                <p>Telemetry trends vs Quota Targets & Machine Learning Projection</p>
+              </div>
+              <div class="chart-legend">
+                <div class="legend-item"><span class="legend-line-actual"></span> <span>Actual Revenue</span></div>
+                <div class="legend-item"><span class="legend-line-target"></span> <span>Quota Target</span></div>
+                <div class="legend-item"><span class="legend-line-forecast"></span> <span>AI Forecast (Oct-Dec)</span></div>
+              </div>
+            </div>
+
+            <!-- Canvas Container -->
+            <div class="canvas-wrapper">
+              <canvas id="revenueTrendCanvas" class="interactive-canvas"></canvas>
+              <!-- Interactive Tooltip Overlay -->
+              <div id="trendChartTooltip" class="canvas-tooltip-card"></div>
+            </div>
+          </div>
+
+          <!-- Right: Regional Performance Bar Chart -->
+          <div class="chart-panel-card">
+            <div class="chart-header-row">
+              <div class="chart-title-area">
+                <h3>Regional Performance</h3>
+                <p>Global territory quota attainment</p>
+              </div>
+              <span class="badge-tag mint" style="margin:0;">Target Quota Line</span>
+            </div>
+
+            <div class="canvas-wrapper">
+              <canvas id="regionalBarCanvas" class="interactive-canvas"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent Real-time Deals Ticker Stream -->
+        <div class="telemetry-ticker-bar">
+          <div class="ticker-label">
+            <span class="pulse-dot"></span>
+            <span>LIVE TELEMETRY:</span>
+          </div>
+          <div class="ticker-items-container">
+            <div class="ticker-deal">
+              <span>Deal Won:</span>
+              <strong>CloudScale Networks</strong>
+              <span class="deal-amount">+$145,000</span>
+              <span style="color:var(--text-dim)">(2m ago)</span>
+            </div>
+            <div class="ticker-deal">
+              <span>Stage Advanced:</span>
+              <strong>Finova Bank</strong>
+              <span style="color:var(--neon-cyan)">Proposal Sent ($185k)</span>
+              <span style="color:var(--text-dim)">(5m ago)</span>
+            </div>
+            <div class="ticker-deal">
+              <span>Expansion:</span>
+              <strong>Nexus Automations</strong>
+              <span class="deal-amount">+$220,000</span>
+              <span style="color:var(--text-dim)">(11m ago)</span>
+            </div>
+            <div class="ticker-deal">
+              <span>AI Churn Flag Cleared:</span>
+              <strong>Aura Health</strong>
+              <span style="color:var(--neon-mint)">Score Up to 88</span>
+              <span style="color:var(--text-dim)">(14m ago)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features Grid Section -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="section-head">
+        <div class="badge-tag violet">Engineered for Revenue Velocity</div>
+        <h2 class="section-title">Enterprise Analytics Designed for Action</h2>
+        <p class="section-description">
+          Stop sifting through fragmented spreadsheets. PrismMetrics turns multi-source sales activity into clear, automated execution.
+        </p>
+      </div>
+
+      <div class="features-grid-4">
+        <!-- Feature 1: Predictive Forecasting -->
+        <div class="feature-card">
+          <div class="feature-icon-box icon-cyan">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+          </div>
+          <h3>Predictive Forecasting</h3>
+          <p>
+            AI-powered trend anticipation running continuous Monte Carlo simulations. Accurately predicts quarter-end close rates, uncovers hidden pipeline risks, and eliminates revenue surprises.
+          </p>
+          <div class="feature-pill-list">
+            <span class="feature-pill">99.4% Accuracy</span>
+            <span class="feature-pill">Dynamic Confidence Bands</span>
+            <span class="feature-pill">Quota Variance Flags</span>
+          </div>
+        </div>
+
+        <!-- Feature 2: Customer Health Score -->
+        <div class="feature-card">
+          <div class="feature-icon-box icon-mint">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          </div>
+          <h3>Customer Health Score</h3>
+          <p>
+            Automated churn risk identification tracking 40+ telemetry variables—product usage decay, executive sponsor changes, and support ticket velocity—to trigger proactive retention playbooks.
+          </p>
+          <div class="feature-pill-list">
+            <span class="feature-pill">0-100 Account Scoring</span>
+            <span class="feature-pill">Early Drift Warning</span>
+            <span class="feature-pill">Automated Retention Tasks</span>
+          </div>
+        </div>
+
+        <!-- Feature 3: Instant Pipeline Visualizer -->
+        <div class="feature-card">
+          <div class="feature-icon-box icon-violet">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line><line x1="15" y1="3" x2="15" y2="21"></line></svg>
+          </div>
+          <h3>Instant Pipeline Visualizer</h3>
+          <p>
+            Drag-and-drop deal tracking and pipeline inspection. Real-time stage conversion weighting, automated deal health badges, and instant slipped-deal alerts right in your flow.
+          </p>
+          <div class="feature-pill-list">
+            <span class="feature-pill">Interactive Kanban</span>
+            <span class="feature-pill">Weighted Probability</span>
+            <span class="feature-pill">Velocity Bottlenecks</span>
+          </div>
+        </div>
+
+        <!-- Feature 4: 1-Click Integrations -->
+        <div class="feature-card">
+          <div class="feature-icon-box icon-amber">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <h3>1-Click Integrations</h3>
+          <p>
+            Syncs seamlessly with Salesforce, HubSpot, Stripe, Snowflake, Slack, and BigQuery. Zero code pipelines with instant bidirectional telemetry and sub-second webhook webhooks.
+          </p>
+          <div class="feature-pill-list">
+            <span class="feature-pill">Salesforce & HubSpot</span>
+            <span class="feature-pill">Stripe Billing Telemetry</span>
+            <span class="feature-pill">Sub-150ms Latency</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Live Pipeline Visualizer Component (Requested in prompt) -->
+  <section class="pipeline-visualizer-section" id="pipeline">
+    <div class="container-wide">
+      <div class="section-head">
+        <div class="badge-tag mint">Interactive Deal Tracking</div>
+        <h2 class="section-title">Instant Pipeline Visualizer</h2>
+        <p class="section-description">
+          Try it now: Drag deals between stages or use arrows to see real-time weighted pipeline calculations dynamically update.
+        </p>
+      </div>
+
+      <div class="pipeline-board-container">
+        <!-- Pipeline Summary Header -->
+        <div class="pipeline-board-header">
+          <div class="pipeline-summary-metrics">
+            <div class="pipeline-stat">Total Pipeline: <strong id="pipelineTotalVal">$1.47M</strong></div>
+            <div class="pipeline-stat">Weighted ARR: <strong id="pipelineWeightedVal">$1.02M</strong></div>
+            <div class="pipeline-stat">Active Deals: <strong id="pipelineCountVal">8 Active Deals</strong></div>
+          </div>
+          <div style="font-size:0.775rem; color:var(--neon-cyan); display:flex; align-items:center; gap:6px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            <span>Drag cards across columns or tap ← / → to transition stages</span>
+          </div>
+        </div>
+
+        <!-- Columns Dynamic Container -->
+        <div class="pipeline-columns-grid" id="pipelineColumnsContainer">
+          <!-- Rendered dynamically by pipeline.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Health Score Showcase Section -->
+  <section class="health-matrix-section">
+    <div class="container">
+      <div class="section-head">
+        <div class="badge-tag cyan">Customer Retention Intelligence</div>
+        <h2 class="section-title">Customer Health Score & Churn Radar</h2>
+        <p class="section-description">
+          Automated risk identification surfaces early indicators before contracts come up for renewal.
+        </p>
+      </div>
+
+      <div class="health-table-card">
+        <!-- Search and Filters Bar -->
+        <div style="padding:1.25rem 1.5rem; background:var(--bg-surface-2); border-bottom:1px solid var(--border-subtle); display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <span style="font-size:0.85rem; font-weight:700; color:var(--text-main);">Enterprise Accounts (Live Radar)</span>
+            <span class="badge-tag mint" style="margin:0;">4 Monitored</span>
+          </div>
+          <input type="text" id="healthAccountSearch" placeholder="Search enterprise account..." style="background:var(--bg-surface-1); border:1px solid var(--border-mid); color:#fff; padding:0.4rem 0.85rem; border-radius:8px; font-size:0.8rem; width:220px; outline:none;">
+        </div>
+
+        <table class="health-table">
+          <thead>
+            <tr>
+              <th>Account Name</th>
+              <th>Current ARR</th>
+              <th>Health Score</th>
+              <th>Churn Threat</th>
+              <th>AI Recommended Action</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="account-col">
+                  <div class="account-logo">AC</div>
+                  <div>
+                    <div class="account-name" style="font-weight:700;">Acme Corp International</div>
+                    <div style="font-size:0.75rem; color:var(--text-dim);">Renewal in 88 days</div>
+                  </div>
+                </div>
+              </td>
+              <td style="font-weight:700;">$320,000</td>
+              <td><span class="score-badge score-green">96 / 100</span></td>
+              <td><span style="color:var(--neon-mint); font-weight:700;">1.2% (Low)</span></td>
+              <td style="color:var(--text-muted); font-size:0.825rem;">Initiate enterprise multi-year expansion pitch</td>
+              <td><button class="btn btn-outline-mint btn-sm" onclick="showToastAlert('Playbook: Sent Expansion Brief to CSM')">Trigger Playbook</button></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="account-col">
+                  <div class="account-logo" style="color:var(--neon-violet);">CS</div>
+                  <div>
+                    <div class="account-name" style="font-weight:700;">CloudSphere Infrastructure</div>
+                    <div style="font-size:0.75rem; color:var(--text-dim);">Renewal in 42 days</div>
+                  </div>
+                </div>
+              </td>
+              <td style="font-weight:700;">$180,000</td>
+              <td><span class="score-badge score-yellow">78 / 100</span></td>
+              <td><span style="color:var(--neon-amber); font-weight:700;">14.8% (Moderate)</span></td>
+              <td style="color:var(--text-muted); font-size:0.825rem;">Usage drop detected in EU team; schedule executive check-in</td>
+              <td><button class="btn btn-secondary-glass btn-sm" onclick="showToastAlert('Scheduled: Executive check-in invited')">Contact Sponsor</button></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="account-col">
+                  <div class="account-logo" style="color:var(--neon-rose);">TL</div>
+                  <div>
+                    <div class="account-name" style="font-weight:700;">TerraLogistics Enterprise</div>
+                    <div style="font-size:0.75rem; color:var(--text-dim);">Renewal in 28 days</div>
+                  </div>
+                </div>
+              </td>
+              <td style="font-weight:700;">$210,000</td>
+              <td><span class="score-badge score-red">48 / 100</span></td>
+              <td><span style="color:var(--neon-rose); font-weight:700;">44.2% (Critical)</span></td>
+              <td style="color:var(--neon-rose); font-size:0.825rem;">Executive sponsor departure flagged; deploy retention specialist</td>
+              <td><button class="btn btn-primary-neon btn-sm" style="padding:0.35rem 0.75rem;" onclick="showToastAlert('⚠️ Critical Alert dispatched to VP of Success!')">Rescue Account</button></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="account-col">
+                  <div class="account-logo" style="color:var(--neon-mint);">NT</div>
+                  <div>
+                    <div class="account-name" style="font-weight:700;">NexaTech Solutions</div>
+                    <div style="font-size:0.75rem; color:var(--text-dim);">Renewal in 180 days</div>
+                  </div>
+                </div>
+              </td>
+              <td style="font-weight:700;">$95,000</td>
+              <td><span class="score-badge score-green">91 / 100</span></td>
+              <td><span style="color:var(--neon-mint); font-weight:700;">3.1% (Low)</span></td>
+              <td style="color:var(--text-muted); font-size:0.825rem;">Heavy API feature adoption; invite to customer advisory board</td>
+              <td><button class="btn btn-outline-mint btn-sm" onclick="showToastAlert('CSM Action: VIP invitation sent')">Trigger Playbook</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1-Click Integrations Section -->
+  <section class="integrations-section" id="integrations">
+    <div class="container">
+      <div class="section-head">
+        <div class="badge-tag amber">Ecosystem & Data Pipelines</div>
+        <h2 class="section-title">1-Click Telemetry Integrations</h2>
+        <p class="section-description">
+          Plug into your existing stack in under 2 minutes. Continuous two-way synchronization with zero engineering effort.
+        </p>
+      </div>
+
+      <div class="integrations-grid">
+        <!-- Salesforce -->
+        <div class="integration-card">
+          <div>
+            <div class="integration-top">
+              <div class="integration-icon-wrap" style="color:#00a1e0;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+              </div>
+              <span class="badge-tag cyan" style="margin:0; font-size:0.65rem;">Bi-directional</span>
+            </div>
+            <h4>Salesforce</h4>
+            <p>Sync leads, custom pipeline stages, opportunities, and historical quota attainment.</p>
+          </div>
+          <div class="integration-footer">
+            <span class="status-pill"><span class="pulse-dot"></span> Synced 1m ago</span>
+            <button class="toggle-switch-btn connected">Active Sync</button>
+          </div>
+        </div>
+
+        <!-- HubSpot -->
+        <div class="integration-card">
+          <div>
+            <div class="integration-top">
+              <div class="integration-icon-wrap" style="color:#ff7a59;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="4"></circle><line x1="21.17" y1="8" x2="12" y2="8"></line><line x1="3.95" y1="6.06" x2="8.54" y2="14"></line><line x1="10.88" y1="21.94" x2="15.46" y2="14"></line></svg>
+              </div>
+              <span class="badge-tag cyan" style="margin:0; font-size:0.65rem;">Bi-directional</span>
+            </div>
+            <h4>HubSpot CRM</h4>
+            <p>Automate deal stage transitions, contact engagement scores, and sales rep activity.</p>
+          </div>
+          <div class="integration-footer">
+            <span class="status-pill"><span class="pulse-dot"></span> Synced 2m ago</span>
+            <button class="toggle-switch-btn connected">Active Sync</button>
+          </div>
+        </div>
+
+        <!-- Stripe -->
+        <div class="integration-card">
+          <div>
+            <div class="integration-top">
+              <div class="integration-icon-wrap" style="color:#635bff;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+              </div>
+              <span class="badge-tag mint" style="margin:0; font-size:0.65rem;">Real-time</span>
+            </div>
+            <h4>Stripe Billing</h4>
+            <p>Ingest MRR, ARR, invoice payments, churn events, and expansion upgrades instantly.</p>
+          </div>
+          <div class="integration-footer">
+            <span class="status-pill"><span class="pulse-dot"></span> Synced Realtime</span>
+            <button class="toggle-switch-btn connected">Active Sync</button>
+          </div>
+        </div>
+
+        <!-- Snowflake & BigQuery -->
+        <div class="integration-card">
+          <div>
+            <div class="integration-top">
+              <div class="integration-icon-wrap" style="color:#29b5e8;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <span class="badge-tag violet" style="margin:0; font-size:0.65rem;">Warehouse</span>
+            </div>
+            <h4>Snowflake Data Lake</h4>
+            <p>Query raw event streams and run custom SQL projections directly inside the dashboard.</p>
+          </div>
+          <div class="integration-footer">
+            <span class="status-pill" style="color:#64748b;">● Standby</span>
+            <button class="toggle-switch-btn">Connect</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof & Customer Testimonials -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-head">
+        <div class="badge-tag mint">Enterprise Customer Stories</div>
+        <h2 class="section-title">Loved by Revenue Operations Leaders</h2>
+        <p class="section-description">
+          See how high-velocity sales teams use PrismMetrics to crush quotas and forecast with certainty.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="quote-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="metric-highlight-badge">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline></svg>
+              <span>+340% Pipeline Predictability</span>
+            </div>
+            <p class="quote-text">
+              "PrismMetrics completely eliminated our end-of-quarter panic. Our forecast accuracy jumped from 76% to 99.4% in the first quarter, giving our executive board unmatched confidence."
+            </p>
+          </div>
+          <div class="author-box">
+            <div class="author-img">ER</div>
+            <div class="author-info">
+              <h5>Elena Rostova</h5>
+              <p>VP of Revenue Operations, FinScale</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="quote-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="metric-highlight-badge" style="color:var(--neon-mint); background:rgba(0, 245, 160, 0.1); border-color:rgba(0, 245, 160, 0.25);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>$420K Churn Avoided</span>
+            </div>
+            <p class="quote-text">
+              "The Customer Health Score flagged a key client drift 45 days prior to contract renewal. That single automated alert paid for PrismMetrics for the next five years."
+            </p>
+          </div>
+          <div class="author-box">
+            <div class="author-img" style="background:linear-gradient(135deg, var(--neon-mint), var(--neon-cyan));">MV</div>
+            <div class="author-info">
+              <h5>Marcus Vance</h5>
+              <p>Chief Commercial Officer, CloudSphere</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="quote-stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="metric-highlight-badge" style="color:var(--neon-violet); background:rgba(168, 85, 247, 0.1); border-color:rgba(168, 85, 247, 0.25);">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline></svg>
+              <span>-38% Sales Cycle Duration</span>
+            </div>
+            <p class="quote-text">
+              "Our account executives actually enjoy using it. The instant pipeline visualizer and AI scenario simulator cut out 6 hours of repetitive CRM admin work every week."
+            </p>
+          </div>
+          <div class="author-box">
+            <div class="author-img" style="background:linear-gradient(135deg, var(--neon-violet), var(--neon-cyan));">SJ</div>
+            <div class="author-info">
+              <h5>Sarah Jenkins</h5>
+              <p>Global Sales Director, ApexLogix</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive ROI Calculator & Pricing Section -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-head">
+        <div class="badge-tag violet">Transparent Investment</div>
+        <h2 class="section-title">Plans Scaled to Your Sales Volume</h2>
+        <p class="section-description">
+          All tiers include instant 1-click CRM integrations, real-time telemetry, and 14-day risk-free trials.
+        </p>
+      </div>
+
+      <!-- Billing Frequency Switch -->
+      <div class="pricing-switch-wrap">
+        <span class="switch-label" id="lblMonthly">Monthly Billing</span>
+        <button class="pill-tab-group" id="billingSwitchBtn" style="cursor:pointer; padding:6px 12px; background:var(--bg-surface-2); border-radius:9999px;">
+          <span style="font-size:0.85rem; font-weight:700; color:var(--neon-cyan);">Toggle Annual (Save 20%)</span>
+        </button>
+        <span class="switch-label active" id="lblAnnual">Annual Billing <span class="discount-tag">Save 20% + 2 Mo Free</span></span>
+      </div>
+
+      <!-- 3 Tier Cards Grid -->
+      <div class="pricing-grid">
+        <!-- Starter Plan -->
+        <div class="pricing-card">
+          <div class="plan-header">
+            <h4>Starter</h4>
+            <p>Essential sales telemetry and deal stage forecasting for emerging B2B sales teams.</p>
+            <div class="plan-price-wrap">
+              <span class="plan-price" id="starterPrice">$39</span>
+              <span class="plan-period">/ user / mo</span>
+            </div>
+          </div>
+          <ul class="plan-features-list">
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f5a0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Up to 5 Sales Rep seats</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f5a0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>1 CRM Sync (HubSpot or Salesforce)</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f5a0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Standard Revenue & Pipeline Charts</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f5a0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Weekly Slack summaries</span>
+            </li>
+          </ul>
+          <button class="btn btn-secondary-glass open-trial-btn">Start 14-Day Free Trial</button>
+        </div>
+
+        <!-- Growth / Popular Plan -->
+        <div class="pricing-card popular">
+          <div class="popular-badge">Most Popular</div>
+          <div class="plan-header">
+            <h4>Growth</h4>
+            <p>Full AI predictive engine, churn radar, and instant pipeline visualizer for scaling revenue orgs.</p>
+            <div class="plan-price-wrap">
+              <span class="plan-price" id="growthPrice" style="color:var(--neon-cyan);">$119</span>
+              <span class="plan-period">/ user / mo</span>
+            </div>
+          </div>
+          <ul class="plan-features-list">
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f0ff" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Unlimited Sales Rep Seats</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f0ff" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>AI Predictive Sales Copilot 3.0</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f0ff" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Customer Churn Radar & Health Scores</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f0ff" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Interactive Drag-and-drop Pipeline</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f0ff" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>All 1-Click Integrations (Stripe, HubSpot, SF)</span>
+            </li>
+          </ul>
+          <button class="btn btn-primary-neon open-trial-btn">Start 14-Day Free Trial</button>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="pricing-card">
+          <div class="plan-header">
+            <h4>Enterprise</h4>
+            <p>Tailored machine learning models, custom Snowflake warehouse data pipes, and 99.99% SLA.</p>
+            <div class="plan-price-wrap">
+              <span class="plan-price" id="enterprisePrice">$319</span>
+              <span class="plan-period">/ user / mo</span>
+            </div>
+          </div>
+          <ul class="plan-features-list">
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f5a0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Dedicated Machine Learning Engineer</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f5a0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Custom SQL & Data Lake sync</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f5a0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>SAML / Okta SSO & Audit logging</span>
+            </li>
+            <li class="included">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f5a0" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>24/7 Priority Support & 99.99% SLA</span>
+            </li>
+          </ul>
+          <button class="btn btn-secondary-glass open-demo-btn">Schedule Enterprise Brief</button>
+        </div>
+      </div>
+
+      <!-- Interactive ROI Calculator Widget -->
+      <div class="roi-calculator-box">
+        <div class="roi-header">
+          <h3>Interactive Value & ROI Calculator</h3>
+          <p style="color:var(--text-muted); font-size:0.95rem;">
+            Slide your company's annual sales pipeline to see how much revenue PrismMetrics saves from churn and deal slippage.
+          </p>
+        </div>
+
+        <div class="roi-grid">
+          <div class="roi-slider-group">
+            <div class="slider-top-row">
+              <span class="slider-label">Annual Sales Pipeline Volume:</span>
+              <span class="slider-display-val" id="sliderDisplayVal">$12.0M</span>
+            </div>
+            <input type="range" min="1" max="50" step="0.5" value="12" class="custom-range-slider" id="roiRevenueSlider">
+            <div style="display:flex; justify-content:space-between; font-size:0.75rem; color:var(--text-dim);">
+              <span>$1.0M</span>
+              <span>$25.0M</span>
+              <span>$50.0M+</span>
+            </div>
+          </div>
+
+          <div class="roi-results-card">
+            <div class="roi-result-metric">
+              <h4>Recovered Revenue Slippage</h4>
+              <p id="roiSavedVal">$696,000</p>
+            </div>
+            <div class="roi-result-metric">
+              <h4>Rep Admin Hours Saved</h4>
+              <p id="roiHoursVal">3,840 hrs/yr</p>
+            </div>
+            <div class="roi-result-metric highlight">
+              <h4>Projected Net ROI</h4>
+              <p id="roiNetVal">+424%</p>
+            </div>
+            <div class="roi-result-metric">
+              <h4>Estimated Payback</h4>
+              <p style="color:#ffffff;">18 Days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion Section -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-head">
+        <div class="badge-tag cyan">Common Inquiries</div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-description">Everything you need to know about security, implementation, and AI models.</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>How fast can we connect our existing Salesforce or HubSpot instance?</span>
+            <span class="faq-icon-cross">+</span>
+          </button>
+          <div class="faq-answer-panel">
+            <p>Integration takes under 2 minutes. Our OAuth2 bi-directional pipeline connects directly to standard or custom CRM objects without requiring developer hours or schema alterations.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>How does PrismMetrics achieve 99.4% forecasting accuracy?</span>
+            <span class="faq-icon-cross">+</span>
+          </button>
+          <div class="faq-answer-panel">
+            <p>Unlike basic spreadsheet projections that rely only on rep opinion, Prism AI trains continuous gradient boosting and Bayesian models on 40+ objective telemetry signals—including buyer interaction cadence, contract length, historical rep win-rates, and market volatility.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Is our sales and customer data protected and compliant?</span>
+            <span class="faq-icon-cross">+</span>
+          </button>
+          <div class="faq-answer-panel">
+            <p>Yes. PrismMetrics is SOC 2 Type II certified, GDPR compliant, and encrypts all telemetry in transit and at rest using 256-bit AES encryption. We never train public foundation models on private enterprise pipeline data.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Can we customize the deal stages and health scoring parameters?</span>
+            <span class="faq-icon-cross">+</span>
+          </button>
+          <div class="faq-answer-panel">
+            <p>Absolutely. You can customize stage definitions, probability curves, churn weighting, and currency conversions directly within the administrative console.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- High-Conversion Final CTA Banner -->
+  <section class="cta-banner-section">
+    <div class="container">
+      <div class="cta-banner-card">
+        <h2>Ready to Eliminate Revenue Guesswork?</h2>
+        <p>Join hundreds of high-growth sales teams automating forecast accuracy and pipeline visibility today.</p>
+        <form class="cta-input-group" id="quickCtaForm" onsubmit="event.preventDefault(); showToastAlert('🚀 Invitation sent! Check your inbox for workspace access.');">
+          <input type="email" placeholder="Enter your work email address..." class="cta-email-input" required>
+          <button type="submit" class="btn btn-primary-neon btn-lg">Start Free 14-Day Trial</button>
+        </form>
+        <div style="font-size:0.8rem; color:var(--text-dim); margin-top:1rem;">
+          Instant setup • No credit card required • Cancel anytime
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Col -->
+        <div class="footer-brand-col">
+          <a href="#" class="brand-logo">
+            <div class="brand-prism-icon">
+              <svg width="28" height="28" viewBox="0 0 34 34" fill="none">
+                <polygon points="17,3 31,28 3,28" stroke="#00f0ff" stroke-width="2.5" fill="rgba(0, 240, 255, 0.1)"/>
+                <circle cx="17" cy="18" r="3" fill="#a855f7"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="prism-title">Prism</span><span class="metrics-title">Metrics</span>
+            </div>
+          </a>
+          <p>
+            The next-generation smart sales analytics and predictive revenue platform designed for high-velocity revenue organizations.
+          </p>
+          <div class="live-badge-status" style="display:inline-flex;">
+            <span class="pulse-dot"></span>
+            <span>All Systems Operational • 99.99%</span>
+          </div>
+        </div>
+
+        <!-- Product Col -->
+        <div class="footer-col">
+          <h5>Product</h5>
+          <ul class="footer-links-list">
+            <li><a href="#dashboard-preview">Predictive Forecasting</a></li>
+            <li><a href="#pipeline">Pipeline Visualizer</a></li>
+            <li><a href="#dashboard-preview">Customer Health Score</a></li>
+            <li><a href="#integrations">1-Click Integrations</a></li>
+            <li><a href="#pricing">Pricing Plans</a></li>
+          </ul>
+        </div>
+
+        <!-- Solutions Col -->
+        <div class="footer-col">
+          <h5>Solutions</h5>
+          <ul class="footer-links-list">
+            <li><a href="#">Revenue Operations (RevOps)</a></li>
+            <li><a href="#">Chief Commercial Officers</a></li>
+            <li><a href="#">Enterprise Sales Reps</a></li>
+            <li><a href="#">SaaS Churn Mitigation</a></li>
+            <li><a href="#">Board-Ready Reporting</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources Col -->
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <ul class="footer-links-list">
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">API Reference</a></li>
+            <li><a href="#">Forecasting Benchmark 2026</a></li>
+            <li><a href="#">Security & Compliance</a></li>
+            <li><a href="#">System Status</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Col -->
+        <div class="footer-col">
+          <h5>Stay Ahead in Sales AI</h5>
+          <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.75rem;">Get our bi-weekly digest on predictive telemetry and revenue optimization.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="work.email@company.com" class="newsletter-input" required>
+            <button type="submit" class="btn btn-primary-neon btn-sm">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Row -->
+      <div class="footer-bottom-row">
+        <div>
+          © 2026 PrismMetrics Technologies Inc. All rights reserved.
+        </div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="#" style="color:var(--text-dim); text-decoration:none;">Privacy Policy</a>
+          <a href="#" style="color:var(--text-dim); text-decoration:none;">Terms of Service</a>
+          <a href="#" style="color:var(--text-dim); text-decoration:none;">Cookie Settings</a>
+        </div>
+        <div class="social-icons-row">
+          <a href="#" class="social-icon-btn" aria-label="X / Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-icon-btn" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          </a>
+          <a href="#" class="social-icon-btn" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal: Start Free Trial -->
+  <div class="modal-overlay" id="trialModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 style="font-size:1.25rem; font-weight:700;">Start Your 14-Day Free Trial</h3>
+        <button class="modal-close-btn" aria-label="Close Modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1.5rem;">
+          Get instant access to PrismMetrics Enterprise. No credit card required. Connect your CRM in minutes.
+        </p>
+        <form id="trialForm" style="display:flex; flex-direction:column; gap:1.25rem;">
+          <div>
+            <label style="display:block; font-size:0.8rem; font-weight:700; color:var(--text-muted); margin-bottom:0.4rem;">Work Email</label>
+            <input type="email" placeholder="you@company.com" required style="width:100%; background:var(--bg-surface-2); border:1px solid var(--border-mid); color:#fff; padding:0.75rem 1rem; border-radius:8px; outline:none;">
+          </div>
+          <div>
+            <label style="display:block; font-size:0.8rem; font-weight:700; color:var(--text-muted); margin-bottom:0.4rem;">Company Name</label>
+            <input type="text" placeholder="Acme Technologies" required style="width:100%; background:var(--bg-surface-2); border:1px solid var(--border-mid); color:#fff; padding:0.75rem 1rem; border-radius:8px; outline:none;">
+          </div>
+          <div>
+            <label style="display:block; font-size:0.8rem; font-weight:700; color:var(--text-muted); margin-bottom:0.4rem;">Primary CRM</label>
+            <select style="width:100%; background:var(--bg-surface-2); border:1px solid var(--border-mid); color:#fff; padding:0.75rem 1rem; border-radius:8px; outline:none;">
+              <option value="salesforce">Salesforce CRM</option>
+              <option value="hubspot">HubSpot CRM</option>
+              <option value="stripe">Stripe Billing</option>
+              <option value="other">Other / Custom Warehouse</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary-neon btn-lg" style="margin-top:0.5rem;">Launch Sandbox Workspace</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Watch Live Demo Guided Tour -->
+  <div class="modal-overlay" id="demoModal">
+    <div class="modal-card" style="max-width:750px;">
+      <div class="modal-header">
+        <h3 style="font-size:1.25rem; font-weight:700; display:flex; align-items:center; gap:0.5rem;">
+          <span style="color:var(--neon-cyan);">✦</span> Interactive Product Walkthrough
+        </h3>
+        <button class="modal-close-btn" aria-label="Close Modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div style="background:var(--bg-surface-2); border:1px solid var(--border-subtle); border-radius:12px; padding:1.5rem; margin-bottom:1.5rem;">
+          <h4 style="font-size:1.05rem; font-weight:700; color:#fff; margin-bottom:0.5rem;">Step 1: AI Forecast Calibration</h4>
+          <p style="font-size:0.875rem; color:var(--text-muted); line-height:1.6; margin-bottom:1rem;">
+            When connected, PrismMetrics ingests historical closed deals and builds a baseline regression curve. Try switching the scenario buttons in the Command Center section to inspect Bull and Macro Stress conditions.
+          </p>
+          <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <button class="btn btn-outline-mint btn-sm" onclick="document.getElementById('dashboard-preview').scrollIntoView({behavior:'smooth'}); document.querySelectorAll('.modal-overlay').forEach(m=>m.classList.remove('active'));">Jump to Command Center</button>
+            <button class="btn btn-secondary-glass btn-sm" onclick="document.getElementById('pipeline').scrollIntoView({behavior:'smooth'}); document.querySelectorAll('.modal-overlay').forEach(m=>m.classList.remove('active'));">Inspect Pipeline Kanban</button>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+          <div style="background:var(--bg-surface-2); padding:1rem; border-radius:10px; border:1px solid var(--border-subtle);">
+            <div style="font-size:0.8rem; font-weight:700; color:var(--neon-cyan);">Continuous Telemetry</div>
+            <p style="font-size:0.75rem; color:var(--text-muted); margin-top:0.3rem;">Real-time micro events keep pipelines aligned across executive leadership.</p>
+          </div>
+          <div style="background:var(--bg-surface-2); padding:1rem; border-radius:10px; border:1px solid var(--border-subtle);">
+            <div style="font-size:0.8rem; font-weight:700; color:var(--neon-mint);">Automated Churn Radar</div>
+            <p style="font-size:0.75rem; color:var(--text-muted); margin-top:0.3rem;">Flags high-risk enterprise renewals 60 days before contract expiry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="charts.js"></script>
+  <script src="pipeline.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
