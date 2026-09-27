@@ -3,6 +3,8 @@
 > **Transform Raw Sales Data Into Predictable Revenue**  
 > Modern, enterprise-grade sales analytics web application and high-conversion SaaS landing page featuring AI-powered predictive forecasting, real-time pipeline telemetry, and churn intelligence.
 
+**Live Demo:** [Vercel](https://smart-sales-analytics-one.vercel.app) · [Render](https://smart-sales-analytics-m47t.onrender.com)
+
 ---
 
 ## 🌟 Key Highlights & Design Aesthetic
